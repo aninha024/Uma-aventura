@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <title>A procura do gato perdido</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img\imagem passo 0.jpg" alt="">
+            <p>Um dia desses acordei com uma ligaçâo da vovó dizendo que precisa da minha ajuda para achar um gatinho que se perdeu. Mas por onde devo começar? Nesse joguinho, a autora deixa pistas para você descobrir o que fazer.</p>
+            <button class="btn-proximo" data-proximo="1">Paque do Pico do Jaraguá</button>
+            <button class="btn-proximo" data-proximo="2">Parque Ibirapuera</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você começa sua jornada no Parque do Pico do Jaraguá, indo para o local das quadras ao amanhecer para encontrar a primeira pista.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista no na quadra</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>No Parque Ibirapuera, você visita o Museu da Arte Moderna. Na carta, uma das pistas indica que para localizar a entrada para a cidade perdida você deve procurar a próxima pista em um dos pontos turísticos da cidade. Por qual você começa?</p>
+            <button class="btn-proximo" data-proximo="5">Investigar as obras do Museu</button>
+            <button class="btn-proximo" data-proximo="6">Explorar mais o Parque</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Nas quadras do Pico da Jaraguá, você encontra uma antiga inscrição apontando que a próxima pista está
+                localizada no Parque Villa-Lobos.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Parque Villa-Lobos</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img\cenario passo4.jpg" alt="imagem voltando para casa e desitindo da aventura">
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta se o gatinho esta bem.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No Museu, você descobre um mapa antigo escondido atrás de uma obra com um retrato de um gatinho laranja, apontando que a próxima
+                pista está no Parque Villa-Lobos.</p>
+            <button class="btn-proximo" data-proximo="7">Viajar para o Parque Villa-Lobos</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Explorando o Parque, você encontra uma caverna escondida, mas ela leva a um beco sem saída.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar o Museu</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No Parque Villa-Lobos, a busca pelo gatinho se intensifica. Você se depara com um dois caminhos.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela rua à esquerda</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela rua à direita</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta ao Museu, você finalmente encontra o mapa antigo. Agora, para o Villa-Lobos!</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Parque Villa-Lobos</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A rua à esquerda leva você a uma fazenda escondida com inscrições antigas que revelam a entrada de
+                um portal secreto.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o portal secreto</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>a rua à direita termina em uma área pantanosa. Apesar de belas vistas, não há sinais do gato perdido
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar a outra rua</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img\cenario passo11.avif" alt="encontrando um portal secreto perdido no Parque Villa-Lobos">
+            <p>Dentro do portal secreto, você descobre onde o gatinho perdido está e decide leva-lo com você para casa.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Retornando e escolhendo a rua à esquerda, você finalmente encontra a fazenda escondida e as inscrições
+                que levam ao portal secreto.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o portal secreto</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
